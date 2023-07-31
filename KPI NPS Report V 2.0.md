@@ -7,21 +7,19 @@
 
 # Table of contents
 
-1. Document goals
+1. Document Goals
 2. Definition of the KPI
-    2.1 METRIC: Net Promoter Score (NPS)
-    2.2 Definition of NPS
-3. Business use cases of the KPI
+    2.1 Metric Details
+    2.2 NPS Definition
+3. KPI Business Use Cases
     3.1 Key Insights
-4. Date Sources required to implement the KPI
+4. Required KPI Data Sources
     4.1 Metric Granularity
     4.2 Segments (Dimensions /Filters / Slicers)
     4.3 Caveats & Clarifications
-    4.4 Status
-    4.5 Known Issues
-5. Explanation of the data relationships
-    5.1 Data Processing Details
-6. Sample SQL Queries that would be relevant to this KPI
+    4.4 Known Issues
+5. Data Processing Details
+6. Sample SQL Queries
     6.1 Use Case 1 - To fetch non-EBA Qualtrics IDs per fiscal year
     6.2 Use Case 2 - To fetch Qualtrics IDs (EBA and non-EBA) per industry
     6.3 Use Case 3 - To fetch EBA Qualtrics IDs per GEO
@@ -29,21 +27,21 @@
     6.5 Use Case 5 - To calculate EBA NPS
     6.6 Use Case 6 - To connect NPS table with applicable dimensions
 7. Report / Data for Reconciliation
-8. Check list for Metric Owner
+8. Check List for Metric Owner
 9. Governance
 10. Data Quality & Monitoring
     10.1 Known Data Quality Issues
     10.2 Data Quality Checks
     10.3 Inventory of Downstream Users
 
-# 1. Document goals
+# 1. Document Goals
    - Explain how the Key Performance Indicator (KPI) Net Promotor Score is calculated using SQL
    - Communicate a high-level understanding of the metric and how it can be used for leadership and director-levels 
    - Document the process for technical analysts to understand how to use the data/calculate the KPI as well as the appropriate business context to apply it
 
 # 2. Definition of the KPI
 
-## 2.1 METRIC: Net Promoter Score (NPS)
+## 2.1 Metric Details
 
 | Item | Details |
 | ------ | ------ |
@@ -54,13 +52,13 @@
 | Product Owner | Uddipan |
 | Documentation Status | IN PROGESS |
 
-## 2.2 Definition of NPS 
+## 2.2 NPS Definition 
 NPS stands for Net Promoter Score, a metric used in customer experience programmes. NPS measures the loyalty of customers to a company. NPS scores are measured with a single question survey and reported with a number from -100 to +100. A higher score is desirable. 
 
 ![Total_Qualtrics_ID vs Fiscal_Year](https://res.cloudinary.com/dffvrw1wk/image/upload/v1690790058/nps_rrarle.jpg)
 
 
-# 3. Business use cases of the KPI
+# 3. KPI Business Use Cases
 - Tracking NPS allows us to see how much our customers would recommend our product/service/the company to someone else
 - We can track this KPI over periods of time and determine whether customer satisfaction with the product/service is improving or declining
 - We can leverage this information to enhance our service and identify strengths for further improvement
@@ -79,7 +77,7 @@ NPS stands for Net Promoter Score, a metric used in customer experience programm
     -  An **overall NPS of 35 out of 100** shows signs of improvement to be made in the **product/process/company**.
     - We can **leverage NPS tables** to facilitate in-depth **analysis** by exploring **NPS scores** alongside specific customer attributes, gaining insights into **customer feedback** and **loyalty** based on different dimensions.
 
-# 4. Date Sources required to implement the KPI
+# 4. Required KPI Data Sources
 
 
 ## 4.1 Metric Granularity
@@ -135,16 +133,10 @@ NPS stands for Net Promoter Score, a metric used in customer experience programm
 
    - This approach helps maintain data clarity and reliability, standardizing the data to 'UNKNOWN' for ambiguous survey responses with multiple possible mappings to different customer accounts or information. It ensures consistent handling during analysis and reporting.
 
-
-## 4.4 Status
-Status: **IN PROGESS**
-
 ## 4.5 Known Issues
 The metric knowledge is being consolidated, gathering inputs from various experts to ensure a comprehensive understanding and informed decision-making based on combined expertise of the SMEs.
 
-## 5. Explanation of the Data Relationships
-
-### 5.1 Data Processing Details
+## 5. Data Processing Details
 
 **How to Find the Table(s):**
 1. Go to the Data Warehouse.
@@ -168,7 +160,7 @@ The metric knowledge is being consolidated, gathering inputs from various expert
 | X_PUBLISH | ENGAGEMENT_SHARED | NPS_NON_X_KEY_DRIVER_PRODUCTS | X _RO_GROUP | Not Applicable |
 | X_PUBLISH | ENGAGEMENT_SHARED | NPS_PRODUCTS_ENGMNT | X _RO_GROUP | Not Applicable |
 
-# 6. Sample SQL Queries that would be relevant to this KPI
+# 6. Sample SQL Queries
 ## 6.1 Use Case 1
 ### *_To fetch non-EBA Qualtrics IDs per fiscal year_*
 SQL query:
