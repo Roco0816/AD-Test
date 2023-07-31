@@ -221,7 +221,7 @@ SQL query:
 The query helps identify the number of survey responses (Qualtrics IDs) and the number of unique customers (account_csn) for both EBA and non-EBA participants, categorized by different industries. It allows us to understand how many survey responses and unique customers are associated with each industry.
 
 #### Table Results
-- Engagement and feedback vary by industry. The majority of respondents are unique customers with an unknown industry. Investigate to identify these industries. Improve survey participation and engagement, especially in construction and product design industries.
+Engagement and feedback vary by industry. The majority of respondents are unique customers with an unknown industry. Investigate to identify these industries. Improve survey participation and engagement, especially in construction and product design industries.
 
 ## 6.3 Use Case 3
 ### *To fetch EBA Qualtrics IDs per GEO*
