@@ -37,7 +37,7 @@
     10.3 Inventory of Downstream Users
 
 # 1. Document goals
-   - Explain how to calculate the Key Performance Indicator (KPI) Net Promotor Score using SQL
+   - Explain how the Key Performance Indicator (KPI) Net Promotor Score is calculated using SQL
    - Communicate a high-level understanding of the metric and how it can be used for leadership and director-levels 
    - Document the process for technical analysts to understand how to use the data/calculate the KPI as well as the appropriate business context to apply it
 
@@ -67,17 +67,17 @@ NPS stands for Net Promoter Score, a metric used in customer experience programm
 
 ## 3.1 Key Insights
  - Achievements:
-    - The total number of qualtrics_ID's have increased year on year since 2020 from 35 to over 100 accounts in 2023. This is a positive result and an investigation as to what is working successfully can drive further results.
-    -  The overall EBA NPS of 60 indicates a highly positive sentiment among employees who have access to our products or services. 
-    - Leveraging this positive sentiment can contribute to a positive work environment and potentially boost employee engagement and productivity.
-    - Engagement in survey reponses is highest in the architecture industry.
-    - Geo_1 has the highest NPS, indicating a higher level of customer loyalty and satisfaction compared to the other locations.
+    - The total number of **survey responses** have **increased** year on year since 2020 from **35 to over 100** in 2023. This is a **positive** result and an **investigation** as to what is working successfully can drive **further results**.
+    -  The **overall EBA NPS** of **60** indicates a **highly positive sentiment** among **employees** who have access to our products or services. 
+    - Leveraging this positive sentiment can contribute to a **positive work environment** and potentially boost employee **engagement and productivity**.
+    - Engagement in survey reponses is **highest in the architecture industry**.
+    - **Geo_1** has **the highest NPS**, indicating a higher level of **customer loyalty and satisfaction** compared to the other locations.
 - Improvements:
-    - The majority of respondents are unique customers with an unknown industry. Investigate to identify these industries. 
-    - Improve survey participation and engagement, especially in construction and product design industries.
-    - Geo_3 has the lowest NPS, suggesting there is room for improvement in customer sentiment in this area.
-    -  An overall NPS of 35 out of 100 shows signs of improvement to be made in the product/process/company.
-    - We can leverage NPS tables to facilitate in-depth analysis by exploring NPS scores alongside specific customer attributes, gaining insights into customer feedback and loyalty based on different dimensions.
+    - The majority of respondents are **unique customers** with an **unknown industry**. Investigate to identify these industries. 
+    - Improve survey participation and engagement, especially in **construction and product design industries**.
+    - **Geo_3** has **the lowest NPS**, suggesting there is room for improvement in **customer sentiment** in this area.
+    -  An **overall NPS of 35 out of 100** shows signs of improvement to be made in the **product/process/company**.
+    - We can **leverage NPS tables** to facilitate in-depth **analysis** by exploring **NPS scores** alongside specific customer attributes, gaining insights into **customer feedback** and **loyalty** based on different dimensions.
 
 # 4. Date Sources required to implement the KPI
 
@@ -137,7 +137,7 @@ NPS stands for Net Promoter Score, a metric used in customer experience programm
 
 
 ## 4.4 Status
-Status: IN PROGESS
+Status: **IN PROGESS**
 
 ## 4.5 Known Issues
 The metric knowledge is being consolidated, gathering inputs from various experts to ensure a comprehensive understanding and informed decision-making based on combined expertise of the SMEs.
