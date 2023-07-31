@@ -63,7 +63,7 @@ NPS stands for Net Promoter Score, a metric used in customer experience programm
 # 3. Business use cases of the KPI
 - Tracking NPS allows us to see how much our customers would recommend our product/service/the company to someone else
 - We can track this KPI over periods of time and determine whether customer satisfaction with the product/service is improving or declining
-- We can then use this information to take action to improve our service or identify the areas of strength to further improve the service
+- We can leverage this information to enhance our service and identify strengths for further improvement
 
 ## 3.1 Key Insights
  - Achievements:
